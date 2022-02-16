@@ -3,4 +3,18 @@
   max-width: 100%;
   margin: 0 auto;
   padding: 20px 15px;
+  text-align: center;
+}
+
+.footer {
+  padding: 60px 0 30px;
+}
+
+.footer a {
+  color: #555555;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #000000;
 }

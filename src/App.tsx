@@ -27,7 +27,13 @@ function App() {
 
   return (
     <div className="container">
+      <h1>React TypeScript Swiper</h1>
       <Swiper items={items} />
+      <footer className="footer">
+        <a href="https://dominicarrojado.com/posts/how-to-create-your-own-swiper-in-react-and-typescript-with-tests-part-1/">
+          Learn how to build this swiper in React and TypeScript
+        </a>
+      </footer>
     </div>
   );
 }
