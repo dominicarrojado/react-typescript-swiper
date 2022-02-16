@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Swiper from './components/Swiper';
 
 function App() {
+  const items = [
+    {
+      imageSrc: process.env.PUBLIC_URL + '/pic1.jpeg',
+      imageAlt: "A person's eye",
+    },
+    {
+      imageSrc: process.env.PUBLIC_URL + '/pic2.jpeg',
+      imageAlt: 'A rock formation',
+    },
+    {
+      imageSrc: process.env.PUBLIC_URL + '/pic3.jpeg',
+      imageAlt: 'Some flowers',
+    },
+    {
+      imageSrc: process.env.PUBLIC_URL + '/pic4.jpeg',
+      imageAlt: 'An egyptian wall painting',
+    },
+    {
+      imageSrc: process.env.PUBLIC_URL + '/pic5.jpeg',
+      imageAlt: 'A butterfly on a leaf',
+    },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Swiper items={items} />
     </div>
   );
 }
