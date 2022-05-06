@@ -43,3 +43,7 @@ yarn build
 ```
 
 2. The `build` directory can be served by any static hosting service or CDN.
+
+## Learn
+
+Learn how to build this swiper [here](https://dominicarrojado.com/posts/how-to-create-your-own-swiper-in-react-and-typescript-with-tests-part-1/).
